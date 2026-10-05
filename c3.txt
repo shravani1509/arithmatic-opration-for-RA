@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+    int weight = 3;  // Payload weight in kg
+    int factor = 2;  // Multiply by 2 for safety
+    int force;
+
+    // Calculate required grip force
+    force = weight * factor;
+
+    printf("Gripper Force: %d Newtons\n", force);
+    
+}

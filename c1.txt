@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+    int robot = 5;    // Robot weight in kg
+    int payload = 2;  // Gripper payload in kg
+    int total;
+
+    // Add them together
+    total = robot + payload;
+
+    printf("Total Weight: %d kg\n", total);
+
+}

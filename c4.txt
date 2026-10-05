@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+    int voltage = 12;     // Battery volts
+    int resistance = 3;  // Actuator resistance
+    int current;
+
+    // Divide volts by resistance
+    current = voltage / resistance;
+
+    printf("Motor Current: %d Amps\n", current);
+    
+}

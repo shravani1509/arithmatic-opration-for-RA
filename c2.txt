@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+    int target = 50;   // Target height in cm
+    int current = 10;  // Sensor reading in cm
+    int gap;
+
+    // Find the remaining distance
+    gap = target - current;
+
+    printf("Actuator must move: %d cm\n", gap);
+    
+}
